@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Pesquisa - IFTO</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -200,7 +201,7 @@
         <br>
         <label><input type="radio" name="dificulade" value="5">5</label>
         <br>
-     </fieldet>
+     </fielsdet>
 
      <fieldset>
         <legend>Interesse em novos serviços</legend>
@@ -246,16 +247,19 @@
      </fieldset>
 
      <fieldset>
-        <legend>Recomendaria</legend>
-        <select name="Recomederia">
+        <legend>Recomendação</legend>
+        <label>Recomendaria?</label>
+        <select name="recomendacao">
             <option value="">Selecionar...</option>
             <option value="não">Não</option>
             <option value="sim">Sim</option>
-     </fieldset>        
+        </select> 
+    </fieldset> <button type="submit" id="btnEnviar">Enviar Formulário</button>
+</form>
 
+     
 
-    <button type="submit">Enviar</button>
-    </form>
+   
 
 </body>
 </html>
