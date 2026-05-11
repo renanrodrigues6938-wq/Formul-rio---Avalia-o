@@ -85,3 +85,31 @@ button {
 button:hover {
     background-color: #267a32;
 }
+header img {
+    display: table;       
+    margin: 0 auto;       
+    max-width: 150px;     
+    height: auto;         
+}
+
+
+header {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+header {
+    text-align: left;     
+    background-color: #32a041;
+    padding: 15px;         
+}
+
+header img {
+    display: block;        
+    margin-left: 0;        
+    margin-right: auto;    
+    max-width: 120px;      
+    height: auto;
+    margin-bottom: 10px;   
+}
